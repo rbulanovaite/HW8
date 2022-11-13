@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    text-decoration: none;
+}
+body {
+    background: rgb(66 175 117);
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+   
+}
+main article {
+    flex: 40%;
+    padding: 10px;
+    width: 500px;
+      
+}
+
+aside {
+    flex: 25%;
+    padding-top: 10px;
+  
+    
+}
+main article .container-1 {
+    max-width: 800px;
+    background: white;
+    border: 10px solid rgb(66 175 117);
+    padding-right: 0;
+    height: 800px;
+    position: relative;
+
+    
+}
+
+
+.article-1 img {
+    width: 100%;
+    max-height: 100%;
+
+} 
+
+main .box {
+    background: white;
+    border: 10px solid rgb(66 175 117);
+    height: 500px;
+    position: relative;
+    
+    
+}
+
+main .container-2{
+    background: white;
+    border: 10px solid rgb(66 175 117);
+    height: 298px;
+    position: relative;
+    
+}
+
+.article-2 img {
+    width: 100%;
+    max-height: 100%;
+    
+
+} 
+h2 {
+    margin: 20px;
+    margin-bottom: -15px;
+    color: hsl(0deg 0% 20%);
+}
+p {
+    margin: 20px;
+    color: hsl(22deg 3% 48%);
+    
+}
+
+a {
+    color: hsl(22deg 3% 48%);
+    margin: 20px;
+    font-size: smaller;
+    display: flexbox;
+
+}
+div .left {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    margin: 10px;
+}
+div .right {
+
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  font-size: smaller; 
+  color: hsl(22deg 3% 48%);
+  margin: 10px;
+
+ 
+}
+
+div .left-1 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    margin: 10px;
+}
+
+div .right-1 {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    font-size: smaller; 
+    color: hsl(22deg 3% 48%);
+    margin: 10px;
+
+}
+@media only screen and (min-width: 320px) and (max-width:1000px) {
+  
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+    
+        }
+        .article-1 {
+            width: 98%;
+            height: 100%;
+        }
+        .article-2 img {
+            max-width: 100%;
+            max-height: 50%;
+            
+        
+        } 
+
+        
+    }
